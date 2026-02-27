@@ -1,0 +1,501 @@
+product_id,product_name,sku,category,subcategory,price,cost,product_lifecycle_stage,launch_date,is_active
+1,Home & Garden_Living Room_Product_0001,SKU000001,Home & Garden,Living Room,102.19,59.72,decline,2021-06-18,True
+2,Beauty_Makeup_Product_0002,SKU000002,Beauty,Makeup,11.53,6.38,decline,2022-08-28,True
+3,Clothing_Men_Product_0003,SKU000003,Clothing,Men,109.68,51.06,maturity,2021-09-08,True
+4,Toys_Games_Product_0004,SKU000004,Toys,Games,20.41,11.5,maturity,2022-01-06,True
+5,Home & Garden_Bedroom_Product_0005,SKU000005,Home & Garden,Bedroom,27.33,16.16,decline,2021-08-23,True
+6,Books_Non-Fiction_Product_0006,SKU000006,Books,Non-Fiction,17.76,8.0,decline,2021-01-21,True
+7,Food & Beverage_Organic_Product_0007,SKU000007,Food & Beverage,Organic,59.24,33.57,maturity,2022-08-21,True
+8,Furniture_Tables_Product_0008,SKU000008,Furniture,Tables,210.0,105.15,decline,2022-06-26,True
+9,Sports_Equipment_Product_0009,SKU000009,Sports,Equipment,110.19,54.08,decline,2021-06-15,True
+10,Clothing_Shoes_Product_0010,SKU000010,Clothing,Shoes,33.12,15.43,decline,2021-11-24,True
+11,Furniture_Storage_Product_0011,SKU000011,Furniture,Storage,29.16,15.64,decline,2022-04-18,True
+12,Electronics_Laptops_Product_0012,SKU000012,Electronics,Laptops,92.75,42.57,maturity,2021-02-09,True
+13,Clothing_Kids_Product_0013,SKU000013,Clothing,Kids,69.25,36.84,decline,2022-01-23,True
+14,Clothing_Women_Product_0014,SKU000014,Clothing,Women,5.0,2.27,decline,2022-10-08,True
+15,Books_Fiction_Product_0015,SKU000015,Books,Fiction,89.15,46.27,decline,2022-10-26,True
+16,Food & Beverage_Organic_Product_0016,SKU000016,Food & Beverage,Organic,59.04,32.82,maturity,2021-10-12,True
+17,Books_Educational_Product_0017,SKU000017,Books,Educational,31.04,13.18,decline,2022-08-27,True
+18,Clothing_Shoes_Product_0018,SKU000018,Clothing,Shoes,32.37,15.47,decline,2021-06-13,False
+19,Accessories_Belts_Product_0019,SKU000019,Accessories,Belts,262.6,151.79,maturity,2021-08-06,True
+20,Home & Garden_Bedroom_Product_0020,SKU000020,Home & Garden,Bedroom,79.11,32.51,maturity,2022-12-03,True
+21,Toys_Puzzles_Product_0021,SKU000021,Toys,Puzzles,56.56,33.48,maturity,2021-10-11,True
+22,Furniture_Outdoor_Product_0022,SKU000022,Furniture,Outdoor,134.98,61.06,maturity,2021-09-19,False
+23,Electronics_Accessories_Product_0023,SKU000023,Electronics,Accessories,5.0,2.17,maturity,2022-09-05,True
+24,Accessories_Bags_Product_0024,SKU000024,Accessories,Bags,49.74,28.63,maturity,2022-08-10,True
+25,Home & Garden_Kitchen_Product_0025,SKU000025,Home & Garden,Kitchen,37.9,22.03,decline,2023-01-01,True
+26,Accessories_Watches_Product_0026,SKU000026,Accessories,Watches,113.96,51.17,decline,2021-12-03,True
+27,Furniture_Chairs_Product_0027,SKU000027,Furniture,Chairs,49.79,26.19,maturity,2021-05-15,True
+28,Food & Beverage_Organic_Product_0028,SKU000028,Food & Beverage,Organic,57.19,30.6,maturity,2021-03-18,True
+29,Books_Educational_Product_0029,SKU000029,Books,Educational,5.0,2.58,decline,2021-05-04,True
+30,Food & Beverage_International_Product_0030,SKU000030,Food & Beverage,International,17.72,9.13,decline,2022-06-20,True
+31,Home & Garden_Outdoor_Product_0031,SKU000031,Home & Garden,Outdoor,17.15,9.91,maturity,2021-08-25,True
+32,Clothing_Women_Product_0032,SKU000032,Clothing,Women,45.58,24.34,maturity,2022-07-15,True
+33,Clothing_Kids_Product_0033,SKU000033,Clothing,Kids,61.07,28.7,decline,2022-07-04,True
+34,Accessories_Jewelry_Product_0034,SKU000034,Accessories,Jewelry,85.75,42.25,maturity,2022-05-13,True
+35,Sports_Footwear_Product_0035,SKU000035,Sports,Footwear,109.47,46.28,maturity,2022-01-24,True
+36,Clothing_Kids_Product_0036,SKU000036,Clothing,Kids,307.7,153.5,maturity,2021-10-10,True
+37,Sports_Footwear_Product_0037,SKU000037,Sports,Footwear,5.0,2.47,maturity,2021-08-18,True
+38,Beauty_Skincare_Product_0038,SKU000038,Beauty,Skincare,36.84,18.74,maturity,2021-02-10,True
+39,Food & Beverage_Beverages_Product_0039,SKU000039,Food & Beverage,Beverages,32.55,13.46,decline,2022-05-28,True
+40,Toys_Puzzles_Product_0040,SKU000040,Toys,Puzzles,40.41,22.14,maturity,2021-02-11,True
+41,Books_Educational_Product_0041,SKU000041,Books,Educational,33.08,17.92,decline,2022-05-06,True
+42,Clothing_Kids_Product_0042,SKU000042,Clothing,Kids,89.08,36.23,maturity,2022-05-09,True
+43,Electronics_Accessories_Product_0043,SKU000043,Electronics,Accessories,87.56,38.51,decline,2021-04-27,True
+44,Toys_Building Sets_Product_0044,SKU000044,Toys,Building Sets,33.61,19.97,maturity,2022-06-16,True
+45,Beauty_Makeup_Product_0045,SKU000045,Beauty,Makeup,27.45,15.45,decline,2021-06-19,True
+46,Food & Beverage_Organic_Product_0046,SKU000046,Food & Beverage,Organic,96.24,52.0,maturity,2022-09-20,True
+47,Books_Fiction_Product_0047,SKU000047,Books,Fiction,26.62,14.16,decline,2022-09-28,True
+48,Home & Garden_Outdoor_Product_0048,SKU000048,Home & Garden,Outdoor,37.94,17.28,maturity,2021-11-26,True
+49,Toys_Building Sets_Product_0049,SKU000049,Toys,Building Sets,198.02,105.03,maturity,2022-09-13,True
+50,Toys_Action Figures_Product_0050,SKU000050,Toys,Action Figures,8.2,3.42,decline,2022-05-08,True
+51,Books_Educational_Product_0051,SKU000051,Books,Educational,47.04,24.91,decline,2022-03-12,True
+52,Accessories_Jewelry_Product_0052,SKU000052,Accessories,Jewelry,50.57,20.89,decline,2021-06-20,True
+53,Food & Beverage_International_Product_0053,SKU000053,Food & Beverage,International,8.78,3.64,decline,2022-01-20,True
+54,Accessories_Belts_Product_0054,SKU000054,Accessories,Belts,7.8,3.24,maturity,2021-01-26,True
+55,Food & Beverage_Snacks_Product_0055,SKU000055,Food & Beverage,Snacks,10.1,4.25,decline,2022-09-07,True
+56,Food & Beverage_Beverages_Product_0056,SKU000056,Food & Beverage,Beverages,25.72,15.36,maturity,2021-02-10,True
+57,Home & Garden_Kitchen_Product_0057,SKU000057,Home & Garden,Kitchen,83.2,38.83,maturity,2021-11-04,True
+58,Books_Non-Fiction_Product_0058,SKU000058,Books,Non-Fiction,37.28,17.62,decline,2022-11-21,False
+59,Sports_Accessories_Product_0059,SKU000059,Sports,Accessories,51.07,30.45,decline,2021-02-16,False
+60,Toys_Action Figures_Product_0060,SKU000060,Toys,Action Figures,127.78,51.22,decline,2021-05-18,True
+61,Electronics_Tablets_Product_0061,SKU000061,Electronics,Tablets,11.28,5.02,maturity,2021-11-16,True
+62,Toys_Action Figures_Product_0062,SKU000062,Toys,Action Figures,92.34,45.21,decline,2021-05-30,True
+63,Electronics_Laptops_Product_0063,SKU000063,Electronics,Laptops,94.98,44.91,maturity,2022-10-14,True
+64,Electronics_Tablets_Product_0064,SKU000064,Electronics,Tablets,7.28,3.85,maturity,2021-01-18,True
+65,Home & Garden_Outdoor_Product_0065,SKU000065,Home & Garden,Outdoor,13.82,7.82,decline,2021-05-10,True
+66,Beauty_Makeup_Product_0066,SKU000066,Beauty,Makeup,75.06,42.73,decline,2022-10-02,True
+67,Home & Garden_Kitchen_Product_0067,SKU000067,Home & Garden,Kitchen,21.28,10.97,maturity,2021-04-22,True
+68,Sports_Apparel_Product_0068,SKU000068,Sports,Apparel,18.61,8.04,decline,2021-04-18,True
+69,Beauty_Fragrance_Product_0069,SKU000069,Beauty,Fragrance,30.56,13.64,maturity,2022-05-16,True
+70,Food & Beverage_Organic_Product_0070,SKU000070,Food & Beverage,Organic,55.15,26.25,maturity,2022-04-19,True
+71,Accessories_Watches_Product_0071,SKU000071,Accessories,Watches,15.83,6.58,maturity,2022-08-27,True
+72,Electronics_Laptops_Product_0072,SKU000072,Electronics,Laptops,33.12,18.74,decline,2022-01-10,True
+73,Toys_Puzzles_Product_0073,SKU000073,Toys,Puzzles,5.0,2.73,decline,2021-09-04,True
+74,Books_Comics_Product_0074,SKU000074,Books,Comics,22.3,10.12,decline,2021-06-24,False
+75,Electronics_Tablets_Product_0075,SKU000075,Electronics,Tablets,9.49,4.16,maturity,2021-11-29,True
+76,Books_Non-Fiction_Product_0076,SKU000076,Books,Non-Fiction,40.33,18.72,maturity,2022-04-27,True
+77,Clothing_Shoes_Product_0077,SKU000077,Clothing,Shoes,55.3,22.7,maturity,2021-09-23,True
+78,Electronics_Phones_Product_0078,SKU000078,Electronics,Phones,7.96,3.38,maturity,2022-05-16,True
+79,Sports_Footwear_Product_0079,SKU000079,Sports,Footwear,58.17,23.84,maturity,2022-04-11,True
+80,Beauty_Skincare_Product_0080,SKU000080,Beauty,Skincare,39.41,21.41,maturity,2021-11-07,True
+81,Food & Beverage_Organic_Product_0081,SKU000081,Food & Beverage,Organic,17.38,10.09,maturity,2022-03-18,True
+82,Clothing_Men_Product_0082,SKU000082,Clothing,Men,83.89,43.18,maturity,2022-09-22,True
+83,Toys_Puzzles_Product_0083,SKU000083,Toys,Puzzles,81.97,43.38,decline,2022-03-15,True
+84,Home & Garden_Kitchen_Product_0084,SKU000084,Home & Garden,Kitchen,62.42,31.73,maturity,2022-03-17,True
+85,Sports_Apparel_Product_0085,SKU000085,Sports,Apparel,29.85,16.49,maturity,2021-05-31,True
+86,Home & Garden_Bedroom_Product_0086,SKU000086,Home & Garden,Bedroom,17.01,7.22,maturity,2022-03-23,True
+87,Home & Garden_Outdoor_Product_0087,SKU000087,Home & Garden,Outdoor,7.43,4.31,maturity,2022-09-19,True
+88,Accessories_Bags_Product_0088,SKU000088,Accessories,Bags,7.71,4.25,decline,2021-09-25,True
+89,Clothing_Kids_Product_0089,SKU000089,Clothing,Kids,189.4,102.8,decline,2022-04-19,True
+90,Toys_Puzzles_Product_0090,SKU000090,Toys,Puzzles,64.89,37.25,decline,2021-08-28,True
+91,Home & Garden_Kitchen_Product_0091,SKU000091,Home & Garden,Kitchen,34.24,18.0,decline,2022-07-17,True
+92,Books_Fiction_Product_0092,SKU000092,Books,Fiction,21.45,9.98,decline,2021-05-27,True
+93,Accessories_Bags_Product_0093,SKU000093,Accessories,Bags,20.71,11.84,maturity,2021-11-11,True
+94,Sports_Footwear_Product_0094,SKU000094,Sports,Footwear,10.38,6.22,maturity,2021-09-09,True
+95,Electronics_Laptops_Product_0095,SKU000095,Electronics,Laptops,26.8,11.97,decline,2021-04-23,True
+96,Home & Garden_Kitchen_Product_0096,SKU000096,Home & Garden,Kitchen,28.43,16.12,maturity,2021-10-19,True
+97,Electronics_Accessories_Product_0097,SKU000097,Electronics,Accessories,7.85,4.52,maturity,2021-06-20,True
+98,Furniture_Storage_Product_0098,SKU000098,Furniture,Storage,10.29,5.42,decline,2022-06-09,True
+99,Furniture_Outdoor_Product_0099,SKU000099,Furniture,Outdoor,9.19,4.59,maturity,2022-12-06,True
+100,Accessories_Bags_Product_0100,SKU000100,Accessories,Bags,19.5,11.07,maturity,2021-02-24,True
+101,Clothing_Kids_Product_0101,SKU000101,Clothing,Kids,5.61,3.18,maturity,2022-10-10,True
+102,Food & Beverage_Snacks_Product_0102,SKU000102,Food & Beverage,Snacks,162.27,79.14,maturity,2021-06-12,True
+103,Food & Beverage_Snacks_Product_0103,SKU000103,Food & Beverage,Snacks,63.53,30.44,maturity,2022-03-18,True
+104,Books_Educational_Product_0104,SKU000104,Books,Educational,32.04,15.11,maturity,2022-02-03,True
+105,Food & Beverage_International_Product_0105,SKU000105,Food & Beverage,International,11.49,5.75,maturity,2021-01-11,True
+106,Electronics_Laptops_Product_0106,SKU000106,Electronics,Laptops,87.59,49.86,maturity,2022-01-02,True
+107,Toys_Action Figures_Product_0107,SKU000107,Toys,Action Figures,8.55,4.42,maturity,2022-12-31,True
+108,Sports_Footwear_Product_0108,SKU000108,Sports,Footwear,65.18,27.08,decline,2022-01-26,True
+109,Furniture_Outdoor_Product_0109,SKU000109,Furniture,Outdoor,27.26,14.08,maturity,2022-04-12,True
+110,Electronics_Accessories_Product_0110,SKU000110,Electronics,Accessories,21.97,9.07,decline,2022-09-15,True
+111,Home & Garden_Outdoor_Product_0111,SKU000111,Home & Garden,Outdoor,28.78,12.93,maturity,2022-12-25,True
+112,Books_Fiction_Product_0112,SKU000112,Books,Fiction,8.29,3.79,maturity,2022-07-20,True
+113,Toys_Building Sets_Product_0113,SKU000113,Toys,Building Sets,121.33,69.95,decline,2021-11-03,True
+114,Electronics_Tablets_Product_0114,SKU000114,Electronics,Tablets,38.89,22.26,decline,2021-05-27,True
+115,Food & Beverage_International_Product_0115,SKU000115,Food & Beverage,International,19.87,8.29,maturity,2022-06-22,True
+116,Accessories_Jewelry_Product_0116,SKU000116,Accessories,Jewelry,35.83,18.42,maturity,2021-04-30,True
+117,Electronics_Accessories_Product_0117,SKU000117,Electronics,Accessories,35.92,16.83,maturity,2022-05-23,True
+118,Sports_Apparel_Product_0118,SKU000118,Sports,Apparel,5.0,2.9,decline,2022-01-25,True
+119,Electronics_Accessories_Product_0119,SKU000119,Electronics,Accessories,8.93,3.82,maturity,2021-10-23,True
+120,Furniture_Chairs_Product_0120,SKU000120,Furniture,Chairs,36.84,18.0,maturity,2021-06-01,False
+121,Electronics_Tablets_Product_0121,SKU000121,Electronics,Tablets,9.57,4.32,maturity,2021-06-12,True
+122,Accessories_Bags_Product_0122,SKU000122,Accessories,Bags,46.41,26.78,decline,2021-05-20,True
+123,Clothing_Shoes_Product_0123,SKU000123,Clothing,Shoes,7.78,3.46,maturity,2022-09-08,True
+124,Clothing_Men_Product_0124,SKU000124,Clothing,Men,19.6,11.01,maturity,2022-09-02,True
+125,Books_Educational_Product_0125,SKU000125,Books,Educational,26.42,10.7,maturity,2022-01-19,True
+126,Food & Beverage_Beverages_Product_0126,SKU000126,Food & Beverage,Beverages,28.83,15.46,maturity,2021-06-30,True
+127,Furniture_Chairs_Product_0127,SKU000127,Furniture,Chairs,24.77,11.89,maturity,2022-11-26,False
+128,Sports_Footwear_Product_0128,SKU000128,Sports,Footwear,100.38,46.56,decline,2022-05-18,True
+129,Electronics_Accessories_Product_0129,SKU000129,Electronics,Accessories,14.28,7.54,decline,2021-12-28,True
+130,Clothing_Men_Product_0130,SKU000130,Clothing,Men,107.89,64.13,maturity,2022-09-15,True
+131,Clothing_Men_Product_0131,SKU000131,Clothing,Men,90.97,46.75,maturity,2022-09-26,True
+132,Accessories_Bags_Product_0132,SKU000132,Accessories,Bags,38.42,20.07,maturity,2022-01-11,True
+133,Beauty_Makeup_Product_0133,SKU000133,Beauty,Makeup,30.07,14.15,decline,2022-06-25,True
+134,Food & Beverage_Beverages_Product_0134,SKU000134,Food & Beverage,Beverages,121.31,55.06,maturity,2021-02-27,True
+135,Sports_Equipment_Product_0135,SKU000135,Sports,Equipment,79.05,42.46,maturity,2022-07-06,True
+136,Sports_Accessories_Product_0136,SKU000136,Sports,Accessories,47.68,24.96,maturity,2021-05-23,False
+137,Food & Beverage_Organic_Product_0137,SKU000137,Food & Beverage,Organic,15.46,7.25,maturity,2021-12-17,True
+138,Furniture_Tables_Product_0138,SKU000138,Furniture,Tables,71.82,31.03,maturity,2022-05-18,False
+139,Food & Beverage_Beverages_Product_0139,SKU000139,Food & Beverage,Beverages,6.67,3.85,decline,2021-03-07,True
+140,Toys_Action Figures_Product_0140,SKU000140,Toys,Action Figures,304.05,173.62,maturity,2022-04-08,True
+141,Home & Garden_Living Room_Product_0141,SKU000141,Home & Garden,Living Room,28.55,14.94,maturity,2021-06-30,True
+142,Furniture_Storage_Product_0142,SKU000142,Furniture,Storage,62.93,36.4,maturity,2021-12-10,True
+143,Beauty_Fragrance_Product_0143,SKU000143,Beauty,Fragrance,22.31,12.14,maturity,2021-06-19,True
+144,Accessories_Belts_Product_0144,SKU000144,Accessories,Belts,53.69,22.28,maturity,2022-04-21,True
+145,Food & Beverage_Snacks_Product_0145,SKU000145,Food & Beverage,Snacks,26.91,15.54,decline,2022-10-16,True
+146,Sports_Apparel_Product_0146,SKU000146,Sports,Apparel,23.89,12.29,decline,2022-10-16,True
+147,Home & Garden_Bedroom_Product_0147,SKU000147,Home & Garden,Bedroom,190.81,86.43,decline,2021-07-07,True
+148,Clothing_Kids_Product_0148,SKU000148,Clothing,Kids,568.68,306.34,decline,2021-09-30,False
+149,Food & Beverage_International_Product_0149,SKU000149,Food & Beverage,International,5.0,2.67,maturity,2022-08-16,True
+150,Home & Garden_Outdoor_Product_0150,SKU000150,Home & Garden,Outdoor,34.79,15.79,maturity,2022-04-15,True
+151,Electronics_Phones_Product_0151,SKU000151,Electronics,Phones,5.17,2.89,maturity,2022-07-17,True
+152,Beauty_Fragrance_Product_0152,SKU000152,Beauty,Fragrance,84.04,38.51,maturity,2022-01-16,True
+153,Books_Comics_Product_0153,SKU000153,Books,Comics,38.34,20.93,decline,2021-03-24,True
+154,Books_Fiction_Product_0154,SKU000154,Books,Fiction,85.08,44.05,maturity,2022-09-02,True
+155,Food & Beverage_International_Product_0155,SKU000155,Food & Beverage,International,55.33,28.01,maturity,2022-04-30,True
+156,Sports_Apparel_Product_0156,SKU000156,Sports,Apparel,23.7,13.3,maturity,2021-12-03,True
+157,Home & Garden_Bedroom_Product_0157,SKU000157,Home & Garden,Bedroom,42.98,23.08,maturity,2022-08-03,True
+158,Food & Beverage_International_Product_0158,SKU000158,Food & Beverage,International,5.0,2.82,maturity,2022-07-29,True
+159,Sports_Apparel_Product_0159,SKU000159,Sports,Apparel,20.13,8.55,maturity,2021-09-19,True
+160,Beauty_Makeup_Product_0160,SKU000160,Beauty,Makeup,507.75,269.53,maturity,2022-07-21,True
+161,Furniture_Chairs_Product_0161,SKU000161,Furniture,Chairs,50.9,20.55,maturity,2022-08-26,True
+162,Electronics_Tablets_Product_0162,SKU000162,Electronics,Tablets,317.53,170.41,maturity,2022-09-12,True
+163,Beauty_Fragrance_Product_0163,SKU000163,Beauty,Fragrance,134.16,63.88,decline,2021-12-17,True
+164,Books_Fiction_Product_0164,SKU000164,Books,Fiction,22.77,13.41,maturity,2021-07-27,True
+165,Toys_Building Sets_Product_0165,SKU000165,Toys,Building Sets,42.92,19.8,maturity,2022-06-17,False
+166,Clothing_Men_Product_0166,SKU000166,Clothing,Men,9.59,4.59,decline,2021-07-16,True
+167,Books_Non-Fiction_Product_0167,SKU000167,Books,Non-Fiction,5.0,2.46,decline,2021-09-21,True
+168,Toys_Puzzles_Product_0168,SKU000168,Toys,Puzzles,45.1,26.3,maturity,2021-04-13,True
+169,Beauty_Fragrance_Product_0169,SKU000169,Beauty,Fragrance,5.0,2.7,maturity,2021-06-28,True
+170,Food & Beverage_International_Product_0170,SKU000170,Food & Beverage,International,19.2,10.74,maturity,2021-07-22,True
+171,Toys_Action Figures_Product_0171,SKU000171,Toys,Action Figures,15.29,7.6,decline,2021-12-13,True
+172,Books_Educational_Product_0172,SKU000172,Books,Educational,5.0,2.89,decline,2022-09-26,True
+173,Furniture_Storage_Product_0173,SKU000173,Furniture,Storage,50.82,21.94,maturity,2021-12-30,True
+174,Furniture_Tables_Product_0174,SKU000174,Furniture,Tables,37.54,18.72,maturity,2022-11-11,True
+175,Books_Fiction_Product_0175,SKU000175,Books,Fiction,22.91,10.66,maturity,2022-07-27,True
+176,Books_Non-Fiction_Product_0176,SKU000176,Books,Non-Fiction,66.8,31.6,maturity,2021-09-17,True
+177,Furniture_Outdoor_Product_0177,SKU000177,Furniture,Outdoor,19.48,10.09,maturity,2021-05-25,True
+178,Electronics_Phones_Product_0178,SKU000178,Electronics,Phones,67.97,35.63,maturity,2022-12-18,True
+179,Beauty_Fragrance_Product_0179,SKU000179,Beauty,Fragrance,364.88,211.53,decline,2021-02-22,True
+180,Furniture_Tables_Product_0180,SKU000180,Furniture,Tables,83.99,34.61,maturity,2022-10-11,True
+181,Books_Educational_Product_0181,SKU000181,Books,Educational,8.06,3.58,maturity,2021-07-06,True
+182,Furniture_Chairs_Product_0182,SKU000182,Furniture,Chairs,57.71,31.99,decline,2022-11-03,True
+183,Books_Comics_Product_0183,SKU000183,Books,Comics,16.62,7.48,maturity,2021-08-16,True
+184,Beauty_Makeup_Product_0184,SKU000184,Beauty,Makeup,285.37,134.63,maturity,2022-04-29,True
+185,Food & Beverage_International_Product_0185,SKU000185,Food & Beverage,International,48.28,23.06,decline,2021-03-22,True
+186,Sports_Equipment_Product_0186,SKU000186,Sports,Equipment,75.49,33.74,decline,2022-08-18,True
+187,Books_Non-Fiction_Product_0187,SKU000187,Books,Non-Fiction,34.74,16.59,maturity,2021-10-12,True
+188,Home & Garden_Bedroom_Product_0188,SKU000188,Home & Garden,Bedroom,7.45,3.69,decline,2021-09-04,True
+189,Clothing_Men_Product_0189,SKU000189,Clothing,Men,11.59,5.19,maturity,2021-06-14,True
+190,Electronics_Phones_Product_0190,SKU000190,Electronics,Phones,5.0,2.01,maturity,2021-06-03,True
+191,Accessories_Belts_Product_0191,SKU000191,Accessories,Belts,5.27,3.06,decline,2022-02-19,True
+192,Electronics_Phones_Product_0192,SKU000192,Electronics,Phones,255.05,106.34,maturity,2022-09-17,True
+193,Furniture_Outdoor_Product_0193,SKU000193,Furniture,Outdoor,5.0,2.17,decline,2022-10-28,True
+194,Books_Educational_Product_0194,SKU000194,Books,Educational,19.42,10.54,decline,2021-04-03,True
+195,Furniture_Tables_Product_0195,SKU000195,Furniture,Tables,75.04,44.76,decline,2022-01-04,True
+196,Sports_Apparel_Product_0196,SKU000196,Sports,Apparel,576.21,241.81,decline,2022-11-19,True
+197,Books_Fiction_Product_0197,SKU000197,Books,Fiction,9.36,3.94,maturity,2022-06-17,True
+198,Accessories_Jewelry_Product_0198,SKU000198,Accessories,Jewelry,14.59,6.77,decline,2022-12-21,True
+199,Home & Garden_Outdoor_Product_0199,SKU000199,Home & Garden,Outdoor,47.72,22.55,decline,2022-04-21,True
+200,Clothing_Shoes_Product_0200,SKU000200,Clothing,Shoes,16.57,7.21,maturity,2023-01-01,True
+201,Clothing_Kids_Product_0201,SKU000201,Clothing,Kids,225.43,130.09,decline,2022-10-14,False
+202,Books_Educational_Product_0202,SKU000202,Books,Educational,5.0,2.89,decline,2021-01-25,True
+203,Beauty_Makeup_Product_0203,SKU000203,Beauty,Makeup,18.01,7.81,maturity,2021-12-28,False
+204,Home & Garden_Outdoor_Product_0204,SKU000204,Home & Garden,Outdoor,126.96,56.12,maturity,2022-06-20,True
+205,Sports_Footwear_Product_0205,SKU000205,Sports,Footwear,18.11,8.84,maturity,2021-09-08,True
+206,Electronics_Phones_Product_0206,SKU000206,Electronics,Phones,51.74,28.69,decline,2021-08-08,False
+207,Beauty_Makeup_Product_0207,SKU000207,Beauty,Makeup,5.0,2.13,maturity,2021-04-04,True
+208,Toys_Games_Product_0208,SKU000208,Toys,Games,52.19,29.95,maturity,2022-05-28,False
+209,Accessories_Bags_Product_0209,SKU000209,Accessories,Bags,27.78,11.97,maturity,2021-04-25,True
+210,Sports_Apparel_Product_0210,SKU000210,Sports,Apparel,23.89,11.18,decline,2022-08-18,False
+211,Beauty_Fragrance_Product_0211,SKU000211,Beauty,Fragrance,156.45,87.85,decline,2022-11-12,True
+212,Electronics_Laptops_Product_0212,SKU000212,Electronics,Laptops,8.76,3.78,maturity,2022-01-01,True
+213,Beauty_Makeup_Product_0213,SKU000213,Beauty,Makeup,17.73,9.44,maturity,2022-03-30,True
+214,Beauty_Haircare_Product_0214,SKU000214,Beauty,Haircare,9.16,4.82,maturity,2022-08-19,True
+215,Home & Garden_Outdoor_Product_0215,SKU000215,Home & Garden,Outdoor,20.39,9.55,decline,2021-01-05,False
+216,Clothing_Men_Product_0216,SKU000216,Clothing,Men,12.43,5.57,maturity,2021-09-12,True
+217,Clothing_Kids_Product_0217,SKU000217,Clothing,Kids,5.0,2.15,maturity,2021-12-06,True
+218,Food & Beverage_Organic_Product_0218,SKU000218,Food & Beverage,Organic,69.93,35.1,decline,2021-07-01,True
+219,Home & Garden_Kitchen_Product_0219,SKU000219,Home & Garden,Kitchen,49.0,21.91,maturity,2022-08-05,True
+220,Beauty_Makeup_Product_0220,SKU000220,Beauty,Makeup,154.31,64.8,decline,2022-07-25,True
+221,Food & Beverage_Organic_Product_0221,SKU000221,Food & Beverage,Organic,22.33,11.84,decline,2021-01-21,True
+222,Electronics_Accessories_Product_0222,SKU000222,Electronics,Accessories,72.91,38.74,maturity,2021-11-18,True
+223,Sports_Accessories_Product_0223,SKU000223,Sports,Accessories,14.35,7.39,maturity,2021-11-26,True
+224,Food & Beverage_International_Product_0224,SKU000224,Food & Beverage,International,322.93,148.12,maturity,2021-11-28,True
+225,Clothing_Women_Product_0225,SKU000225,Clothing,Women,333.6,186.77,maturity,2021-11-16,True
+226,Sports_Equipment_Product_0226,SKU000226,Sports,Equipment,22.88,12.21,maturity,2022-12-08,True
+227,Books_Educational_Product_0227,SKU000227,Books,Educational,5.74,2.37,maturity,2022-12-23,True
+228,Accessories_Jewelry_Product_0228,SKU000228,Accessories,Jewelry,38.47,20.99,maturity,2022-12-27,True
+229,Accessories_Bags_Product_0229,SKU000229,Accessories,Bags,30.17,15.7,decline,2022-02-14,True
+230,Sports_Equipment_Product_0230,SKU000230,Sports,Equipment,511.36,288.88,maturity,2022-03-25,True
+231,Food & Beverage_Beverages_Product_0231,SKU000231,Food & Beverage,Beverages,345.98,161.29,decline,2022-03-17,False
+232,Accessories_Belts_Product_0232,SKU000232,Accessories,Belts,197.5,95.18,decline,2021-07-13,True
+233,Sports_Equipment_Product_0233,SKU000233,Sports,Equipment,143.96,75.32,maturity,2021-05-28,True
+234,Furniture_Tables_Product_0234,SKU000234,Furniture,Tables,724.67,338.21,decline,2021-09-08,True
+235,Sports_Equipment_Product_0235,SKU000235,Sports,Equipment,34.94,20.11,maturity,2021-12-13,True
+236,Sports_Apparel_Product_0236,SKU000236,Sports,Apparel,43.08,22.41,maturity,2022-04-30,True
+237,Clothing_Men_Product_0237,SKU000237,Clothing,Men,71.56,32.34,maturity,2022-04-25,True
+238,Clothing_Women_Product_0238,SKU000238,Clothing,Women,7.06,3.25,decline,2022-05-15,True
+239,Electronics_Phones_Product_0239,SKU000239,Electronics,Phones,21.9,12.3,maturity,2021-11-01,True
+240,Beauty_Haircare_Product_0240,SKU000240,Beauty,Haircare,5.0,2.43,maturity,2021-07-08,True
+241,Toys_Puzzles_Product_0241,SKU000241,Toys,Puzzles,10.36,6.07,decline,2021-12-09,False
+242,Clothing_Shoes_Product_0242,SKU000242,Clothing,Shoes,16.8,7.51,maturity,2021-11-03,True
+243,Books_Fiction_Product_0243,SKU000243,Books,Fiction,43.02,17.43,maturity,2021-06-22,True
+244,Clothing_Women_Product_0244,SKU000244,Clothing,Women,257.72,142.76,decline,2022-11-21,False
+245,Home & Garden_Outdoor_Product_0245,SKU000245,Home & Garden,Outdoor,101.02,53.26,maturity,2021-12-22,True
+246,Home & Garden_Outdoor_Product_0246,SKU000246,Home & Garden,Outdoor,36.01,18.71,maturity,2021-07-16,True
+247,Clothing_Kids_Product_0247,SKU000247,Clothing,Kids,5.0,2.78,maturity,2022-06-24,True
+248,Sports_Footwear_Product_0248,SKU000248,Sports,Footwear,5.0,2.12,decline,2021-03-25,True
+249,Beauty_Haircare_Product_0249,SKU000249,Beauty,Haircare,10.81,4.82,decline,2022-12-11,True
+250,Books_Educational_Product_0250,SKU000250,Books,Educational,308.14,174.87,decline,2022-02-06,True
+251,Accessories_Belts_Product_0251,SKU000251,Accessories,Belts,18.01,8.23,decline,2022-04-11,True
+252,Books_Fiction_Product_0252,SKU000252,Books,Fiction,90.1,41.31,decline,2021-12-15,True
+253,Furniture_Outdoor_Product_0253,SKU000253,Furniture,Outdoor,130.68,60.98,maturity,2021-12-26,True
+254,Beauty_Haircare_Product_0254,SKU000254,Beauty,Haircare,20.06,10.07,maturity,2022-09-23,True
+255,Accessories_Jewelry_Product_0255,SKU000255,Accessories,Jewelry,85.3,35.22,maturity,2021-12-12,True
+256,Home & Garden_Bedroom_Product_0256,SKU000256,Home & Garden,Bedroom,34.79,14.52,maturity,2021-11-21,True
+257,Accessories_Jewelry_Product_0257,SKU000257,Accessories,Jewelry,14.4,6.52,maturity,2021-09-22,True
+258,Books_Non-Fiction_Product_0258,SKU000258,Books,Non-Fiction,95.12,50.22,decline,2021-02-10,True
+259,Furniture_Chairs_Product_0259,SKU000259,Furniture,Chairs,59.58,31.05,decline,2021-10-09,True
+260,Books_Non-Fiction_Product_0260,SKU000260,Books,Non-Fiction,98.71,53.48,maturity,2021-11-20,True
+261,Books_Non-Fiction_Product_0261,SKU000261,Books,Non-Fiction,22.34,11.66,maturity,2021-07-18,False
+262,Toys_Action Figures_Product_0262,SKU000262,Toys,Action Figures,37.81,21.42,maturity,2022-08-09,True
+263,Home & Garden_Living Room_Product_0263,SKU000263,Home & Garden,Living Room,87.82,48.35,maturity,2021-10-12,False
+264,Toys_Action Figures_Product_0264,SKU000264,Toys,Action Figures,23.12,11.56,decline,2021-06-11,True
+265,Sports_Equipment_Product_0265,SKU000265,Sports,Equipment,10.05,4.9,maturity,2022-11-04,True
+266,Clothing_Men_Product_0266,SKU000266,Clothing,Men,7.75,3.63,maturity,2021-03-30,True
+267,Furniture_Tables_Product_0267,SKU000267,Furniture,Tables,14.25,8.19,maturity,2021-09-18,True
+268,Clothing_Kids_Product_0268,SKU000268,Clothing,Kids,29.57,14.96,maturity,2022-10-30,True
+269,Food & Beverage_Beverages_Product_0269,SKU000269,Food & Beverage,Beverages,28.43,16.07,maturity,2022-12-27,True
+270,Food & Beverage_Organic_Product_0270,SKU000270,Food & Beverage,Organic,130.79,76.92,decline,2022-08-18,True
+271,Toys_Building Sets_Product_0271,SKU000271,Toys,Building Sets,33.92,13.59,maturity,2022-05-20,True
+272,Accessories_Bags_Product_0272,SKU000272,Accessories,Bags,80.49,37.65,maturity,2021-03-10,True
+273,Sports_Apparel_Product_0273,SKU000273,Sports,Apparel,100.36,51.5,maturity,2022-03-08,True
+274,Accessories_Bags_Product_0274,SKU000274,Accessories,Bags,17.11,7.75,maturity,2022-07-19,False
+275,Books_Educational_Product_0275,SKU000275,Books,Educational,73.91,30.11,decline,2021-07-23,True
+276,Sports_Footwear_Product_0276,SKU000276,Sports,Footwear,19.98,10.48,decline,2022-10-01,True
+277,Food & Beverage_International_Product_0277,SKU000277,Food & Beverage,International,5.0,2.92,maturity,2021-07-23,True
+278,Toys_Building Sets_Product_0278,SKU000278,Toys,Building Sets,5.0,2.66,maturity,2021-08-26,True
+279,Food & Beverage_Organic_Product_0279,SKU000279,Food & Beverage,Organic,69.37,40.9,maturity,2021-08-17,True
+280,Clothing_Men_Product_0280,SKU000280,Clothing,Men,15.9,6.97,maturity,2022-09-20,True
+281,Electronics_Phones_Product_0281,SKU000281,Electronics,Phones,29.02,16.63,decline,2021-10-03,True
+282,Accessories_Belts_Product_0282,SKU000282,Accessories,Belts,133.99,61.54,maturity,2022-05-11,True
+283,Toys_Action Figures_Product_0283,SKU000283,Toys,Action Figures,9.4,5.22,maturity,2021-07-21,True
+284,Sports_Footwear_Product_0284,SKU000284,Sports,Footwear,15.57,8.64,decline,2022-12-16,False
+285,Clothing_Shoes_Product_0285,SKU000285,Clothing,Shoes,25.31,11.75,maturity,2022-05-13,True
+286,Clothing_Women_Product_0286,SKU000286,Clothing,Women,196.64,92.79,maturity,2021-10-11,True
+287,Accessories_Jewelry_Product_0287,SKU000287,Accessories,Jewelry,68.06,36.28,maturity,2021-03-22,True
+288,Accessories_Belts_Product_0288,SKU000288,Accessories,Belts,19.18,10.91,maturity,2021-07-05,True
+289,Sports_Apparel_Product_0289,SKU000289,Sports,Apparel,8.57,4.72,decline,2021-05-24,False
+290,Beauty_Fragrance_Product_0290,SKU000290,Beauty,Fragrance,7.2,4.08,maturity,2021-08-16,True
+291,Beauty_Haircare_Product_0291,SKU000291,Beauty,Haircare,21.7,11.3,maturity,2022-07-14,False
+292,Electronics_Accessories_Product_0292,SKU000292,Electronics,Accessories,30.43,12.42,maturity,2022-02-16,True
+293,Toys_Building Sets_Product_0293,SKU000293,Toys,Building Sets,21.94,8.9,maturity,2022-04-12,False
+294,Accessories_Jewelry_Product_0294,SKU000294,Accessories,Jewelry,62.65,32.66,decline,2021-12-14,True
+295,Furniture_Storage_Product_0295,SKU000295,Furniture,Storage,5.0,2.77,maturity,2022-11-16,True
+296,Food & Beverage_Organic_Product_0296,SKU000296,Food & Beverage,Organic,32.0,19.11,maturity,2022-03-22,True
+297,Books_Comics_Product_0297,SKU000297,Books,Comics,6.49,3.15,maturity,2022-10-19,True
+298,Clothing_Women_Product_0298,SKU000298,Clothing,Women,21.25,11.69,maturity,2022-09-04,False
+299,Electronics_Accessories_Product_0299,SKU000299,Electronics,Accessories,177.85,99.17,maturity,2022-03-01,True
+300,Electronics_Laptops_Product_0300,SKU000300,Electronics,Laptops,57.23,30.46,maturity,2022-12-21,True
+301,Toys_Games_Product_0301,SKU000301,Toys,Games,243.59,102.38,decline,2022-05-14,True
+302,Sports_Accessories_Product_0302,SKU000302,Sports,Accessories,11.65,6.51,decline,2022-08-08,True
+303,Furniture_Chairs_Product_0303,SKU000303,Furniture,Chairs,6.11,3.31,maturity,2021-01-27,True
+304,Toys_Action Figures_Product_0304,SKU000304,Toys,Action Figures,9.43,4.92,maturity,2021-11-08,True
+305,Sports_Accessories_Product_0305,SKU000305,Sports,Accessories,17.72,8.28,maturity,2021-04-12,True
+306,Accessories_Bags_Product_0306,SKU000306,Accessories,Bags,69.15,32.84,maturity,2022-12-22,True
+307,Clothing_Kids_Product_0307,SKU000307,Clothing,Kids,368.96,153.9,maturity,2022-02-25,True
+308,Beauty_Fragrance_Product_0308,SKU000308,Beauty,Fragrance,29.2,17.35,maturity,2021-12-22,True
+309,Accessories_Bags_Product_0309,SKU000309,Accessories,Bags,9.58,4.12,maturity,2022-09-07,True
+310,Books_Fiction_Product_0310,SKU000310,Books,Fiction,67.39,31.77,decline,2022-01-25,True
+311,Electronics_Accessories_Product_0311,SKU000311,Electronics,Accessories,21.38,12.74,maturity,2021-03-03,True
+312,Accessories_Bags_Product_0312,SKU000312,Accessories,Bags,14.79,6.52,maturity,2022-01-21,True
+313,Food & Beverage_International_Product_0313,SKU000313,Food & Beverage,International,94.62,49.21,maturity,2022-12-06,True
+314,Furniture_Tables_Product_0314,SKU000314,Furniture,Tables,58.12,29.71,decline,2022-05-03,True
+315,Beauty_Skincare_Product_0315,SKU000315,Beauty,Skincare,190.32,79.23,maturity,2021-06-30,True
+316,Home & Garden_Bedroom_Product_0316,SKU000316,Home & Garden,Bedroom,18.96,9.94,decline,2021-02-15,True
+317,Clothing_Men_Product_0317,SKU000317,Clothing,Men,21.01,9.13,maturity,2021-12-28,True
+318,Furniture_Chairs_Product_0318,SKU000318,Furniture,Chairs,31.88,16.18,maturity,2022-12-07,True
+319,Beauty_Skincare_Product_0319,SKU000319,Beauty,Skincare,35.92,18.12,maturity,2021-10-07,True
+320,Electronics_Accessories_Product_0320,SKU000320,Electronics,Accessories,50.98,23.32,maturity,2021-09-02,True
+321,Electronics_Phones_Product_0321,SKU000321,Electronics,Phones,6.09,2.73,maturity,2022-10-22,True
+322,Accessories_Watches_Product_0322,SKU000322,Accessories,Watches,16.05,7.3,maturity,2022-01-03,True
+323,Beauty_Skincare_Product_0323,SKU000323,Beauty,Skincare,18.13,9.91,decline,2022-07-06,False
+324,Furniture_Tables_Product_0324,SKU000324,Furniture,Tables,11.16,5.09,decline,2021-02-23,True
+325,Toys_Games_Product_0325,SKU000325,Toys,Games,132.43,55.22,maturity,2022-11-01,True
+326,Toys_Puzzles_Product_0326,SKU000326,Toys,Puzzles,16.3,7.16,maturity,2021-02-26,True
+327,Beauty_Haircare_Product_0327,SKU000327,Beauty,Haircare,10.92,5.99,maturity,2021-03-26,True
+328,Sports_Apparel_Product_0328,SKU000328,Sports,Apparel,34.64,18.12,maturity,2022-06-20,True
+329,Books_Educational_Product_0329,SKU000329,Books,Educational,8.95,4.53,maturity,2021-02-18,True
+330,Toys_Building Sets_Product_0330,SKU000330,Toys,Building Sets,436.81,198.33,maturity,2022-06-29,True
+331,Sports_Apparel_Product_0331,SKU000331,Sports,Apparel,17.52,7.92,decline,2021-01-06,True
+332,Food & Beverage_International_Product_0332,SKU000332,Food & Beverage,International,31.02,18.34,decline,2021-08-31,True
+333,Toys_Building Sets_Product_0333,SKU000333,Toys,Building Sets,49.84,20.14,decline,2022-10-29,True
+334,Sports_Footwear_Product_0334,SKU000334,Sports,Footwear,51.8,26.7,maturity,2021-10-23,True
+335,Food & Beverage_International_Product_0335,SKU000335,Food & Beverage,International,13.9,6.62,maturity,2022-08-25,False
+336,Electronics_Accessories_Product_0336,SKU000336,Electronics,Accessories,5.0,2.64,maturity,2021-01-25,True
+337,Sports_Apparel_Product_0337,SKU000337,Sports,Apparel,13.69,7.42,maturity,2021-04-25,False
+338,Toys_Building Sets_Product_0338,SKU000338,Toys,Building Sets,5.0,2.21,decline,2022-09-19,True
+339,Home & Garden_Bedroom_Product_0339,SKU000339,Home & Garden,Bedroom,13.51,7.0,maturity,2022-04-05,True
+340,Home & Garden_Kitchen_Product_0340,SKU000340,Home & Garden,Kitchen,17.44,10.16,maturity,2022-07-27,True
+341,Beauty_Haircare_Product_0341,SKU000341,Beauty,Haircare,96.36,40.97,maturity,2022-05-07,True
+342,Electronics_Laptops_Product_0342,SKU000342,Electronics,Laptops,67.13,28.19,maturity,2021-06-01,True
+343,Food & Beverage_Beverages_Product_0343,SKU000343,Food & Beverage,Beverages,53.0,22.1,maturity,2021-12-22,True
+344,Accessories_Belts_Product_0344,SKU000344,Accessories,Belts,66.82,27.45,maturity,2022-08-26,True
+345,Accessories_Belts_Product_0345,SKU000345,Accessories,Belts,84.26,35.67,maturity,2022-01-28,True
+346,Clothing_Kids_Product_0346,SKU000346,Clothing,Kids,18.62,10.01,maturity,2022-12-03,True
+347,Furniture_Tables_Product_0347,SKU000347,Furniture,Tables,16.81,8.51,decline,2021-12-13,True
+348,Sports_Footwear_Product_0348,SKU000348,Sports,Footwear,70.45,37.81,decline,2022-03-02,True
+349,Food & Beverage_Organic_Product_0349,SKU000349,Food & Beverage,Organic,113.3,60.92,decline,2022-09-10,False
+350,Furniture_Tables_Product_0350,SKU000350,Furniture,Tables,29.69,12.92,maturity,2021-11-15,True
+351,Home & Garden_Bedroom_Product_0351,SKU000351,Home & Garden,Bedroom,72.41,32.19,maturity,2022-03-02,True
+352,Clothing_Kids_Product_0352,SKU000352,Clothing,Kids,119.58,55.6,maturity,2021-08-14,True
+353,Furniture_Outdoor_Product_0353,SKU000353,Furniture,Outdoor,161.24,80.66,maturity,2021-12-26,False
+354,Sports_Equipment_Product_0354,SKU000354,Sports,Equipment,72.02,41.64,maturity,2021-08-21,True
+355,Sports_Footwear_Product_0355,SKU000355,Sports,Footwear,12.53,7.05,decline,2021-04-28,True
+356,Toys_Games_Product_0356,SKU000356,Toys,Games,12.6,5.05,decline,2021-05-05,True
+357,Accessories_Jewelry_Product_0357,SKU000357,Accessories,Jewelry,70.12,34.13,maturity,2022-10-27,True
+358,Books_Educational_Product_0358,SKU000358,Books,Educational,133.94,56.39,maturity,2022-05-13,True
+359,Food & Beverage_Snacks_Product_0359,SKU000359,Food & Beverage,Snacks,57.1,25.39,maturity,2022-12-27,True
+360,Sports_Footwear_Product_0360,SKU000360,Sports,Footwear,259.88,151.87,maturity,2021-02-27,True
+361,Sports_Accessories_Product_0361,SKU000361,Sports,Accessories,55.08,32.1,maturity,2021-10-25,True
+362,Electronics_Tablets_Product_0362,SKU000362,Electronics,Tablets,40.08,16.64,decline,2021-08-03,True
+363,Toys_Action Figures_Product_0363,SKU000363,Toys,Action Figures,37.35,17.85,decline,2021-08-06,True
+364,Books_Non-Fiction_Product_0364,SKU000364,Books,Non-Fiction,215.69,98.74,decline,2021-01-27,True
+365,Accessories_Bags_Product_0365,SKU000365,Accessories,Bags,7.54,4.01,maturity,2021-12-21,True
+366,Toys_Games_Product_0366,SKU000366,Toys,Games,88.42,36.93,maturity,2022-12-07,False
+367,Accessories_Jewelry_Product_0367,SKU000367,Accessories,Jewelry,27.84,14.63,maturity,2021-05-24,True
+368,Home & Garden_Outdoor_Product_0368,SKU000368,Home & Garden,Outdoor,295.31,175.55,maturity,2022-09-14,True
+369,Food & Beverage_Organic_Product_0369,SKU000369,Food & Beverage,Organic,265.45,128.37,maturity,2021-06-08,True
+370,Furniture_Chairs_Product_0370,SKU000370,Furniture,Chairs,61.69,24.79,decline,2021-06-15,True
+371,Books_Fiction_Product_0371,SKU000371,Books,Fiction,242.66,122.43,maturity,2022-10-02,True
+372,Toys_Building Sets_Product_0372,SKU000372,Toys,Building Sets,132.79,74.99,maturity,2022-06-13,True
+373,Toys_Building Sets_Product_0373,SKU000373,Toys,Building Sets,95.98,42.46,maturity,2022-01-10,False
+374,Books_Comics_Product_0374,SKU000374,Books,Comics,67.74,31.66,maturity,2021-07-26,True
+375,Food & Beverage_Snacks_Product_0375,SKU000375,Food & Beverage,Snacks,15.72,8.26,decline,2021-07-01,False
+376,Beauty_Fragrance_Product_0376,SKU000376,Beauty,Fragrance,10.68,5.8,maturity,2021-06-20,True
+377,Furniture_Outdoor_Product_0377,SKU000377,Furniture,Outdoor,23.42,13.28,maturity,2021-02-20,True
+378,Accessories_Belts_Product_0378,SKU000378,Accessories,Belts,12.74,5.65,decline,2022-11-28,True
+379,Clothing_Shoes_Product_0379,SKU000379,Clothing,Shoes,483.24,277.98,decline,2022-02-05,False
+380,Beauty_Makeup_Product_0380,SKU000380,Beauty,Makeup,22.76,9.76,decline,2022-02-24,False
+381,Beauty_Makeup_Product_0381,SKU000381,Beauty,Makeup,5.55,2.84,maturity,2021-12-23,True
+382,Beauty_Fragrance_Product_0382,SKU000382,Beauty,Fragrance,42.1,23.97,maturity,2021-07-16,True
+383,Sports_Accessories_Product_0383,SKU000383,Sports,Accessories,54.98,25.04,maturity,2022-01-22,True
+384,Food & Beverage_International_Product_0384,SKU000384,Food & Beverage,International,29.85,12.77,maturity,2022-09-28,True
+385,Food & Beverage_Snacks_Product_0385,SKU000385,Food & Beverage,Snacks,18.07,8.81,decline,2022-09-18,True
+386,Furniture_Chairs_Product_0386,SKU000386,Furniture,Chairs,41.01,19.11,maturity,2022-11-28,True
+387,Books_Fiction_Product_0387,SKU000387,Books,Fiction,9.5,4.18,maturity,2022-04-25,True
+388,Toys_Puzzles_Product_0388,SKU000388,Toys,Puzzles,66.69,34.74,maturity,2021-08-17,True
+389,Sports_Equipment_Product_0389,SKU000389,Sports,Equipment,28.71,14.84,decline,2022-11-21,True
+390,Furniture_Outdoor_Product_0390,SKU000390,Furniture,Outdoor,15.26,6.84,decline,2022-08-22,True
+391,Sports_Apparel_Product_0391,SKU000391,Sports,Apparel,24.55,13.76,maturity,2022-11-03,True
+392,Beauty_Haircare_Product_0392,SKU000392,Beauty,Haircare,8.53,4.63,decline,2021-10-25,True
+393,Accessories_Watches_Product_0393,SKU000393,Accessories,Watches,125.34,55.45,maturity,2021-12-15,False
+394,Home & Garden_Kitchen_Product_0394,SKU000394,Home & Garden,Kitchen,15.92,7.44,decline,2022-07-04,True
+395,Clothing_Shoes_Product_0395,SKU000395,Clothing,Shoes,26.04,15.08,maturity,2021-02-03,True
+396,Electronics_Phones_Product_0396,SKU000396,Electronics,Phones,40.09,20.87,maturity,2021-11-25,True
+397,Furniture_Storage_Product_0397,SKU000397,Furniture,Storage,19.56,7.96,maturity,2022-09-16,True
+398,Clothing_Women_Product_0398,SKU000398,Clothing,Women,38.5,20.79,maturity,2022-05-31,True
+399,Toys_Puzzles_Product_0399,SKU000399,Toys,Puzzles,15.96,8.37,maturity,2022-10-28,True
+400,Clothing_Women_Product_0400,SKU000400,Clothing,Women,53.94,27.9,maturity,2021-08-31,True
+401,Sports_Apparel_Product_0401,SKU000401,Sports,Apparel,14.07,6.49,decline,2021-02-09,True
+402,Home & Garden_Outdoor_Product_0402,SKU000402,Home & Garden,Outdoor,241.42,111.36,maturity,2021-02-13,True
+403,Clothing_Men_Product_0403,SKU000403,Clothing,Men,26.43,12.48,decline,2022-11-22,True
+404,Home & Garden_Living Room_Product_0404,SKU000404,Home & Garden,Living Room,55.48,23.99,decline,2021-05-27,True
+405,Home & Garden_Living Room_Product_0405,SKU000405,Home & Garden,Living Room,35.65,20.41,maturity,2022-07-24,True
+406,Home & Garden_Living Room_Product_0406,SKU000406,Home & Garden,Living Room,22.77,10.99,maturity,2021-12-21,True
+407,Toys_Building Sets_Product_0407,SKU000407,Toys,Building Sets,246.38,138.46,maturity,2021-05-18,True
+408,Home & Garden_Bedroom_Product_0408,SKU000408,Home & Garden,Bedroom,74.13,43.08,maturity,2021-11-21,True
+409,Accessories_Belts_Product_0409,SKU000409,Accessories,Belts,8.45,4.99,maturity,2021-02-20,True
+410,Furniture_Chairs_Product_0410,SKU000410,Furniture,Chairs,87.88,40.64,maturity,2022-03-04,True
+411,Toys_Games_Product_0411,SKU000411,Toys,Games,11.78,6.34,maturity,2021-01-17,True
+412,Clothing_Men_Product_0412,SKU000412,Clothing,Men,72.43,40.54,maturity,2021-10-02,True
+413,Electronics_Laptops_Product_0413,SKU000413,Electronics,Laptops,18.98,8.21,maturity,2021-10-13,True
+414,Furniture_Outdoor_Product_0414,SKU000414,Furniture,Outdoor,18.83,9.47,maturity,2021-11-02,True
+415,Clothing_Men_Product_0415,SKU000415,Clothing,Men,54.2,23.03,maturity,2022-08-30,True
+416,Home & Garden_Kitchen_Product_0416,SKU000416,Home & Garden,Kitchen,33.5,16.78,maturity,2021-03-22,True
+417,Sports_Apparel_Product_0417,SKU000417,Sports,Apparel,119.1,60.7,maturity,2022-05-04,True
+418,Electronics_Phones_Product_0418,SKU000418,Electronics,Phones,117.27,59.78,maturity,2021-04-08,True
+419,Clothing_Kids_Product_0419,SKU000419,Clothing,Kids,83.97,47.79,decline,2021-01-04,True
+420,Home & Garden_Living Room_Product_0420,SKU000420,Home & Garden,Living Room,211.43,95.44,maturity,2021-01-25,True
+421,Home & Garden_Bedroom_Product_0421,SKU000421,Home & Garden,Bedroom,128.21,69.61,maturity,2022-01-12,True
+422,Food & Beverage_Snacks_Product_0422,SKU000422,Food & Beverage,Snacks,12.42,6.95,maturity,2022-02-05,True
+423,Sports_Equipment_Product_0423,SKU000423,Sports,Equipment,38.21,15.62,decline,2021-01-14,False
+424,Clothing_Women_Product_0424,SKU000424,Clothing,Women,22.27,11.64,decline,2022-03-12,True
+425,Clothing_Men_Product_0425,SKU000425,Clothing,Men,65.97,30.92,maturity,2022-11-10,True
+426,Toys_Games_Product_0426,SKU000426,Toys,Games,33.09,19.65,maturity,2021-03-02,True
+427,Toys_Games_Product_0427,SKU000427,Toys,Games,13.64,7.26,maturity,2022-04-15,True
+428,Furniture_Tables_Product_0428,SKU000428,Furniture,Tables,13.54,5.56,maturity,2022-01-16,True
+429,Toys_Games_Product_0429,SKU000429,Toys,Games,5.0,2.64,maturity,2022-02-16,True
+430,Accessories_Watches_Product_0430,SKU000430,Accessories,Watches,79.61,45.97,maturity,2022-07-14,True
+431,Food & Beverage_International_Product_0431,SKU000431,Food & Beverage,International,8.4,3.66,maturity,2021-04-08,True
+432,Home & Garden_Outdoor_Product_0432,SKU000432,Home & Garden,Outdoor,42.7,19.91,maturity,2022-07-24,True
+433,Sports_Equipment_Product_0433,SKU000433,Sports,Equipment,19.89,9.61,maturity,2021-10-29,True
+434,Books_Non-Fiction_Product_0434,SKU000434,Books,Non-Fiction,14.93,6.6,maturity,2022-01-23,False
+435,Toys_Building Sets_Product_0435,SKU000435,Toys,Building Sets,23.53,12.07,maturity,2021-03-04,True
+436,Clothing_Kids_Product_0436,SKU000436,Clothing,Kids,40.7,20.51,maturity,2022-12-11,True
+437,Books_Fiction_Product_0437,SKU000437,Books,Fiction,48.7,20.97,maturity,2021-06-02,True
+438,Toys_Games_Product_0438,SKU000438,Toys,Games,48.99,28.15,decline,2021-11-15,True
+439,Sports_Equipment_Product_0439,SKU000439,Sports,Equipment,55.88,32.79,maturity,2022-04-07,True
+440,Electronics_Phones_Product_0440,SKU000440,Electronics,Phones,73.76,41.35,maturity,2021-08-23,True
+441,Furniture_Storage_Product_0441,SKU000441,Furniture,Storage,187.16,82.4,maturity,2021-12-29,True
+442,Beauty_Fragrance_Product_0442,SKU000442,Beauty,Fragrance,42.74,19.65,maturity,2022-08-14,True
+443,Sports_Equipment_Product_0443,SKU000443,Sports,Equipment,82.89,42.86,decline,2021-06-26,True
+444,Accessories_Belts_Product_0444,SKU000444,Accessories,Belts,40.92,17.73,decline,2022-02-03,True
+445,Beauty_Makeup_Product_0445,SKU000445,Beauty,Makeup,15.49,7.77,maturity,2022-05-09,True
+446,Home & Garden_Outdoor_Product_0446,SKU000446,Home & Garden,Outdoor,7.1,2.99,maturity,2021-11-29,True
+447,Home & Garden_Kitchen_Product_0447,SKU000447,Home & Garden,Kitchen,13.21,7.72,maturity,2022-02-19,True
+448,Electronics_Phones_Product_0448,SKU000448,Electronics,Phones,33.64,15.21,maturity,2022-06-15,True
+449,Clothing_Shoes_Product_0449,SKU000449,Clothing,Shoes,47.25,24.12,decline,2022-02-02,True
+450,Accessories_Jewelry_Product_0450,SKU000450,Accessories,Jewelry,37.1,19.09,maturity,2021-02-09,True
+451,Books_Non-Fiction_Product_0451,SKU000451,Books,Non-Fiction,65.17,38.28,maturity,2021-07-03,True
+452,Clothing_Women_Product_0452,SKU000452,Clothing,Women,48.11,26.51,decline,2022-11-19,True
+453,Food & Beverage_Organic_Product_0453,SKU000453,Food & Beverage,Organic,5.03,2.21,decline,2022-04-24,True
+454,Food & Beverage_Beverages_Product_0454,SKU000454,Food & Beverage,Beverages,16.57,8.18,maturity,2021-11-09,True
+455,Accessories_Watches_Product_0455,SKU000455,Accessories,Watches,19.84,10.32,maturity,2021-04-11,True
+456,Food & Beverage_Snacks_Product_0456,SKU000456,Food & Beverage,Snacks,8.85,3.72,decline,2021-11-12,True
+457,Food & Beverage_Beverages_Product_0457,SKU000457,Food & Beverage,Beverages,12.96,6.75,maturity,2021-10-05,True
+458,Books_Comics_Product_0458,SKU000458,Books,Comics,39.32,16.98,maturity,2022-06-30,True
+459,Books_Fiction_Product_0459,SKU000459,Books,Fiction,36.1,18.66,decline,2022-08-12,True
+460,Home & Garden_Outdoor_Product_0460,SKU000460,Home & Garden,Outdoor,5.0,2.86,decline,2021-11-20,True
+461,Furniture_Storage_Product_0461,SKU000461,Furniture,Storage,37.17,20.66,maturity,2021-08-17,True
+462,Books_Non-Fiction_Product_0462,SKU000462,Books,Non-Fiction,5.0,2.26,decline,2021-02-14,True
+463,Books_Educational_Product_0463,SKU000463,Books,Educational,46.18,20.5,maturity,2022-03-10,True
+464,Food & Beverage_Organic_Product_0464,SKU000464,Food & Beverage,Organic,17.41,7.58,maturity,2021-11-04,True
+465,Books_Educational_Product_0465,SKU000465,Books,Educational,119.55,50.28,maturity,2022-04-02,True
+466,Food & Beverage_International_Product_0466,SKU000466,Food & Beverage,International,9.69,5.81,maturity,2021-05-11,True
+467,Clothing_Shoes_Product_0467,SKU000467,Clothing,Shoes,187.99,97.14,decline,2022-02-04,True
+468,Food & Beverage_Beverages_Product_0468,SKU000468,Food & Beverage,Beverages,152.37,88.23,maturity,2022-07-08,True
+469,Food & Beverage_Snacks_Product_0469,SKU000469,Food & Beverage,Snacks,117.82,63.7,decline,2022-10-19,True
+470,Accessories_Belts_Product_0470,SKU000470,Accessories,Belts,5.0,2.84,decline,2021-07-11,True
+471,Furniture_Storage_Product_0471,SKU000471,Furniture,Storage,122.72,49.3,decline,2021-07-02,True
+472,Home & Garden_Living Room_Product_0472,SKU000472,Home & Garden,Living Room,36.01,20.86,maturity,2021-10-25,True
+473,Food & Beverage_Organic_Product_0473,SKU000473,Food & Beverage,Organic,54.74,28.15,maturity,2022-10-25,True
+474,Furniture_Storage_Product_0474,SKU000474,Furniture,Storage,21.25,8.53,decline,2022-09-18,True
+475,Home & Garden_Kitchen_Product_0475,SKU000475,Home & Garden,Kitchen,18.08,8.21,decline,2021-06-25,True
+476,Clothing_Shoes_Product_0476,SKU000476,Clothing,Shoes,47.42,20.75,decline,2022-02-24,True
+477,Electronics_Tablets_Product_0477,SKU000477,Electronics,Tablets,30.77,14.72,maturity,2022-09-23,False
+478,Clothing_Women_Product_0478,SKU000478,Clothing,Women,39.95,21.34,maturity,2022-05-11,True
+479,Toys_Puzzles_Product_0479,SKU000479,Toys,Puzzles,9.02,4.19,decline,2022-03-21,True
+480,Accessories_Belts_Product_0480,SKU000480,Accessories,Belts,69.42,30.0,maturity,2021-01-06,False
+481,Electronics_Accessories_Product_0481,SKU000481,Electronics,Accessories,38.53,20.87,maturity,2022-07-11,True
+482,Sports_Equipment_Product_0482,SKU000482,Sports,Equipment,142.96,82.66,maturity,2022-11-27,True
+483,Toys_Games_Product_0483,SKU000483,Toys,Games,17.65,9.25,maturity,2022-05-25,True
+484,Food & Beverage_Snacks_Product_0484,SKU000484,Food & Beverage,Snacks,85.33,38.12,maturity,2021-04-21,True
+485,Electronics_Phones_Product_0485,SKU000485,Electronics,Phones,11.49,5.47,maturity,2022-04-06,True
+486,Food & Beverage_Organic_Product_0486,SKU000486,Food & Beverage,Organic,108.02,59.52,maturity,2021-12-01,True
+487,Accessories_Bags_Product_0487,SKU000487,Accessories,Bags,13.47,6.69,decline,2021-12-06,True
+488,Furniture_Tables_Product_0488,SKU000488,Furniture,Tables,75.8,34.47,maturity,2021-04-05,True
+489,Books_Educational_Product_0489,SKU000489,Books,Educational,22.45,12.03,maturity,2021-07-14,True
+490,Books_Comics_Product_0490,SKU000490,Books,Comics,273.47,159.14,maturity,2021-02-20,False
+491,Home & Garden_Kitchen_Product_0491,SKU000491,Home & Garden,Kitchen,108.25,44.38,maturity,2022-04-05,True
+492,Beauty_Fragrance_Product_0492,SKU000492,Beauty,Fragrance,5.33,2.87,maturity,2021-01-20,True
+493,Beauty_Skincare_Product_0493,SKU000493,Beauty,Skincare,23.84,9.64,maturity,2022-08-25,True
+494,Sports_Equipment_Product_0494,SKU000494,Sports,Equipment,119.97,49.15,maturity,2022-02-26,True
+495,Beauty_Makeup_Product_0495,SKU000495,Beauty,Makeup,18.32,10.72,maturity,2021-01-23,True
+496,Toys_Puzzles_Product_0496,SKU000496,Toys,Puzzles,17.64,8.44,maturity,2022-07-01,True
+497,Food & Beverage_Beverages_Product_0497,SKU000497,Food & Beverage,Beverages,27.68,13.05,maturity,2021-04-04,True
+498,Beauty_Skincare_Product_0498,SKU000498,Beauty,Skincare,5.0,2.03,decline,2021-03-20,True
+499,Electronics_Laptops_Product_0499,SKU000499,Electronics,Laptops,283.32,137.21,decline,2022-01-09,True
+500,Furniture_Outdoor_Product_0500,SKU000500,Furniture,Outdoor,644.84,334.12,decline,2022-02-12,True
