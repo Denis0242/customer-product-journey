@@ -59,7 +59,7 @@ st.set_page_config(
 # ============================================================================
 
 def load_csv(filename):
-            path = f'C:/Users/Admin/Desktop/Freelance/Denis/Projects/cx_product_ds_capstone/02_data_generation/data/{filename}'
+            path = f'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/{filename}'
             if os.path.exists(path):
                 return pd.read_csv(path)
             else:

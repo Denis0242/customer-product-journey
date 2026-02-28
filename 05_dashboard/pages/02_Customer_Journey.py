@@ -81,7 +81,7 @@ def load_transactions_csv():
             - transaction_amount, profit_amount, payment_method
             - order_status, is_repeat_purchase
     """
-    path = r'C:\Users\Admin\Desktop\Freelance\Denis\Projects\cx_product_ds_capstone\02_data_generation\data\transactions.csv'
+    path = r'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/transactions.csv'
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
     return pd.read_csv(path)
@@ -97,7 +97,7 @@ def load_customer_journey_csv():
             - journey_time, event_type, device_type, page_url
             - session_duration, is_conversion_event, conversion_value
     """
-    path = r'C:\Users\Admin\Desktop\Freelance\Denis\Projects\cx_product_ds_capstone\02_data_generation\data\customer_journey.csv'
+    path = r'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/customer_journey.csv'
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
     return pd.read_csv(path)
@@ -110,7 +110,7 @@ def load_customer_journey_csv():
 @st.cache_data(ttl=600)
 def load_csv(filename):
     """Load CSV file from data folder"""
-    data_dir = 'C:/Users/Admin/Desktop/Freelance/Denis/Projects/cx_product_ds_capstone/02_data_generation/data/'
+    data_dir = 'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/'
     file_path = os.path.join(data_dir, filename)
     
     try:

@@ -55,7 +55,7 @@ st.set_page_config(
 #     return pd.DataFrame()
 
 def load_csv(filename):
-            path = f'C:/Users/Admin/Desktop/Freelance/Denis/Projects/cx_product_ds_capstone/02_data_generation/data/{filename}'
+            path = f'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/{filename}'
             if os.path.exists(path):
                 return pd.read_csv(path)
             else:
@@ -90,7 +90,7 @@ def load_transactions_csv():
             - transaction_amount, profit_amount, payment_method
             - order_status, is_repeat_purchase
     """
-    path = r'C:\Users\Admin\Desktop\Freelance\Denis\Projects\cx_product_ds_capstone\02_data_generation\data\transactions.csv'
+    path = r'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/transactions.csv'
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
     return pd.read_csv(path)
@@ -99,7 +99,7 @@ def load_transactions_csv():
 @st.cache_data(ttl=600)
 def load_csv(filename):
     """Load CSV file from data folder"""
-    data_dir = 'C:/Users/Admin/Desktop/Freelance/Denis/Projects/cx_product_ds_capstone/02_data_generation/data/'
+    data_dir = 'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/'
     file_path = os.path.join(data_dir, filename)
     
     try:
