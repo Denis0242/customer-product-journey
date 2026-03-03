@@ -101,8 +101,8 @@ st.markdown("""
 #     return pd.DataFrame()
 
 
-DATA_PATH = os.path("02_data_generation/data")
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "02_data_generation", "data")
 # ============================================================================
 # DATA LOADING FUNCTION
 # ============================================================================
