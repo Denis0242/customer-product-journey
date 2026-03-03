@@ -101,7 +101,7 @@ st.markdown("""
 #     return pd.DataFrame()
 
 def load_csv(filename):
-            path = f'..\02_data_generation\data\{filename}'
+            path = f'../02_data_generation/data/{filename}'
             if os.path.exists(path):
                 return pd.read_csv(path)
             else:
