@@ -552,6 +552,7 @@ def page_growth_metrics(data):
 # ============================================================================
 # PAGE: CUSTOMER EXPERIENCE 3D
 # ============================================================================
+
 def page_customer_experience_3d(data):
     """Customer Experience Multi-dimensional View"""
     st.title("🎯 Customer Experience 3D View")
@@ -574,15 +575,18 @@ def page_customer_experience_3d(data):
     
     # Calculate loyalty score
     loyalty = completed_trans.groupby('customer_id').agg(
-        purchases=('transaction_id', 'count'),
-        total_spent=('transaction_amount', 'sum')
+    purchases=('transaction_id', 'count'),
+    total_spent=('transaction_amount', 'sum')
     ).reset_index()
+    
+    
     
     # Merge metrics
     customer_3d = data['customers'][['customer_id', 'segment']].copy()
     customer_3d = customer_3d.merge(engagement, on='customer_id', how='left')
     customer_3d = customer_3d.merge(loyalty, on='customer_id', how='left')
     customer_3d = customer_3d.fillna(0)
+    customer_3d.columns = ['customer_id', 'segment', 'engagement', 'purchases', 'total_spent']
     
     # Create 3D scatter
     fig_3d = px.scatter_3d(
@@ -592,11 +596,7 @@ def page_customer_experience_3d(data):
         z='total_spent',
         color='segment',
         title='Customer Experience 3D View (Engagement vs Purchases vs Spend)',
-        labels={
-            'engagement': 'Engagement Score',
-            'purchases': 'Purchase Count',
-            'total_spent': 'Total Spent ($)'
-        },
+        labels={'engagement': 'Engagement Score', 'purchases': 'Purchase Count', 'total_spent': 'Total Spent ($)'},
         color_discrete_sequence=px.colors.qualitative.Set2
     )
     fig_3d.update_layout(height=600)

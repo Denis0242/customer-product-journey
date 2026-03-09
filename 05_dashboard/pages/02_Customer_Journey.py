@@ -11,6 +11,7 @@ import plotly.express as px
 import mysql.connector
 from datetime import datetime, timedelta
 import os
+from pathlib import Path
 
 # ============================================================================
 # PAGE CONFIGURATION
@@ -55,53 +56,37 @@ st.set_page_config(
 #     return pd.DataFrame()
 
 
-
 # ============================================================================
 # DATA LOADING
 # ============================================================================
 
-# @st.cache_data(ttl=600)
-# def load_journey_data():
-#     """Load customer journey data"""
-#     return load_data("SELECT * FROM customer_journey LIMIT 100000;")
+@st.cache_data(ttl=600)
+def load_csv(filename):
+    """Load CSV from repo root data folder, with fallback to legacy folder."""
+    repo_root = Path(__file__).resolve().parents[2]
 
-# @st.cache_data(ttl=600)
-# def load_transactions_data():
-#     """Load transaction data"""
-#     return load_data("SELECT * FROM transactions;")
+    primary_path = repo_root / "data" / filename
+    fallback_path = repo_root / "02_data_generation" / "data" / filename
 
+    if primary_path.exists():
+        return pd.read_csv(primary_path)
+
+    if fallback_path.exists():
+        return pd.read_csv(fallback_path)
+
+    raise FileNotFoundError(
+        f"File not found. Checked: {primary_path} and {fallback_path}"
+    )
+
+
+@st.cache_data(ttl=600)
 def load_transactions_csv():
-    """
-    Load transactions data from CSV
-    
-    Returns:
-        pd.DataFrame: Transaction data with columns:
-            - transaction_id, customer_id, product_id, transaction_date
-            - transaction_time, quantity, unit_price, discount_applied
-            - transaction_amount, profit_amount, payment_method
-            - order_status, is_repeat_purchase
-    """
-    path = r'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/transactions.csv'
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"File not found: {path}")
-    return pd.read_csv(path)
+    return load_csv("transactions.csv")
 
 
+@st.cache_data(ttl=600)
 def load_customer_journey_csv():
-    """
-    Load customer journey data from CSV
-    
-    Returns:
-        pd.DataFrame: Journey data with columns:
-            - journey_id, customer_id, product_id, journey_date
-            - journey_time, event_type, device_type, page_url
-            - session_duration, is_conversion_event, conversion_value
-    """
-    path = r'C:/My_Projects/All_Projects/cx_product_cap/02_data_generation/data/customer_journey.csv'
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"File not found: {path}")
-    return pd.read_csv(path)
-
+    return load_csv("customer_journey.csv")
 
 # ============================================================================
 # CSV DATA LOADING
