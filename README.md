@@ -63,27 +63,22 @@ _Purpose:_
 Quick snapshot of overall business health and performance.
 
 ---
-2️⃣ Customer Journey Analysis
-
-Customer funnel analysis across digital touchpoints.
+# 2️⃣ Customer Journey Analysis
+_Customer funnel analysis across digital touchpoints._
 
 Page View → Product View → Add to Cart → Checkout → Purchase
 
-Insights include:
+_Insights include:_
+- Funnel conversion rates
+- Stage drop-off analysis
+- Customer behavioral patterns
 
-Funnel conversion rates
-
-Stage drop-off analysis
-
-Customer behavioral patterns
-
-Purpose:
+_Purpose:_
 Identify friction points in the purchase journey.
 
 # 3️⃣ Product Performance Analysis
 
 _Product catalog evaluation including:_
-
 - Revenue by category
 - Top-performing products
 - Product lifecycle stages
@@ -188,7 +183,8 @@ customer-product-journey
 - Return rate
 ---
 
-⚙️ Running the Project
+# ⚙️ Running the Project
+- Install your environment
 - Install dependencies
 pip install -r requirements.txt
 
